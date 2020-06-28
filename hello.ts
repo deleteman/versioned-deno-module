@@ -1,4 +1,4 @@
 
-export function HelloWorld(): void {
-	console.log("hello world!")
+export function HelloWorld(name: string): void {
+	console.log("Hey there", name, ", say hello to the world!")
 }
